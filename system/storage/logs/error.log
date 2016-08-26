@@ -1,0 +1,9 @@
+2016-08-26 14:59:22 - PHP Notice:  Undefined variable: icon in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\common\header.tpl on line 20
+2016-08-26 14:59:22 - PHP Notice:  Undefined variable: google_analytics in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\common\header.tpl on line 44
+2016-08-26 15:00:34 - PHP Notice:  Undefined variable: icon in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\common\header.tpl on line 20
+2016-08-26 15:00:34 - PHP Notice:  Undefined variable: google_analytics in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\common\header.tpl on line 44
+2016-08-26 15:00:49 - PHP Notice:  Undefined variable: icon in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\common\header.tpl on line 20
+2016-08-26 15:01:46 - PHP Notice:  Undefined variable: entry_captcha in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106
+2016-08-26 15:01:57 - PHP Notice:  Undefined variable: entry_captcha in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106
+2016-08-26 15:02:32 - PHP Notice:  Undefined variable: entry_captcha in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106
+2016-08-26 15:02:36 - PHP Notice:  Undefined variable: entry_captcha in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106
