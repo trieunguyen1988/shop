@@ -7,3 +7,4 @@
 2016-08-26 15:01:57 - PHP Notice:  Undefined variable: entry_captcha in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106
 2016-08-26 15:02:32 - PHP Notice:  Undefined variable: entry_captcha in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106
 2016-08-26 15:02:36 - PHP Notice:  Undefined variable: entry_captcha in D:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106
+2016-08-27 5:04:18 - PHP Notice:  Undefined variable: entry_captcha in E:\xampp\htdocs\shop\catalog\view\theme\toysandgames\template\product\product.tpl on line 106

@@ -6,17 +6,18 @@ define('HTTP_SERVER', 'http://localhost/shop/');
 define('HTTPS_SERVER', 'http://localhost/shop/');
 
 // DIR
-define('DIR_APPLICATION', 'D:/xampp/htdocs/shop/catalog/');
-define('DIR_SYSTEM', 'D:/xampp/htdocs/shop/system/');
-define('DIR_IMAGE', 'D:/xampp/htdocs/shop/image/');
-define('DIR_LANGUAGE', 'D:/xampp/htdocs/shop/catalog/language/');
-define('DIR_TEMPLATE', 'D:/xampp/htdocs/shop/catalog/view/theme/');
-define('DIR_CONFIG', 'D:/xampp/htdocs/shop/system/config/');
-define('DIR_CACHE', 'D:/xampp/htdocs/shop/system/storage/cache/');
-define('DIR_DOWNLOAD', 'D:/xampp/htdocs/shop/system/storage/download/');
-define('DIR_LOGS', 'D:/xampp/htdocs/shop/system/storage/logs/');
-define('DIR_MODIFICATION', 'D:/xampp/htdocs/shop/system/storage/modification/');
-define('DIR_UPLOAD', 'D:/xampp/htdocs/shop/system/storage/upload/');
+$root = 'E:/xampp/htdocs/shop/';
+define('DIR_APPLICATION', $root . 'catalog/');
+define('DIR_SYSTEM', $root . 'system/');
+define('DIR_IMAGE', $root . 'image/');
+define('DIR_LANGUAGE', $root . 'catalog/language/');
+define('DIR_TEMPLATE', $root . 'catalog/view/theme/');
+define('DIR_CONFIG', $root . 'system/config/');
+define('DIR_CACHE', $root . 'system/storage/cache/');
+define('DIR_DOWNLOAD', $root . 'system/storage/download/');
+define('DIR_LOGS', $root . 'system/storage/logs/');
+define('DIR_MODIFICATION', $root . 'system/storage/modification/');
+define('DIR_UPLOAD', $root . 'system/storage/upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
