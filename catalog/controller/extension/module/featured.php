@@ -10,6 +10,7 @@ class ControllerExtensionModuleFeatured extends Controller {
 		$data['button_cart'] = $this->language->get('button_cart');
 		$data['button_wishlist'] = $this->language->get('button_wishlist');
 		$data['button_compare'] = $this->language->get('button_compare');
+		$data['text_price'] = $this->language->get('text_price');
 
 		$this->load->model('catalog/product');
 
