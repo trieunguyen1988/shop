@@ -74,7 +74,7 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);
 			}
-			
+
 			// Attributes
 			$attribute = array();
 			
@@ -141,6 +141,31 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);					
 			}
+
+			$tltblog = array();
+			if ($this->user->hasPermission('access', 'tltblog/tltblog')) {
+				$tltblog[] = array(
+						'name'	   => $this->language->get('tltblog_article'),
+						'href'     => $this->url->link('tltblog/tltblog', 'token=' . $this->session->data['token'], true),
+						'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'tltblog/tlttag')) {
+				$tltblog[] = array(
+						'name'	   => $this->language->get('tltblog_category'),
+						'href'     => $this->url->link('tltblog/tlttag', 'token=' . $this->session->data['token'], true),
+						'children' => array()
+				);
+			}
+
+			if ($tltblog){
+				$catalog[] = array(
+						'name'	   => 'Blog',
+						'href'     => '',
+						'children' => $tltblog
+				);
+			}
 			
 			if ($catalog) {
 				$data['menus'][] = array(
@@ -151,7 +176,6 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => $catalog
 				);		
 			}
-			
 	
 			// Extension
 			$extension = array();
