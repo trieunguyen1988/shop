@@ -53,6 +53,7 @@ $_['column_quantity']        = 'Số lượng';
 $_['column_status']          = 'Trạng thái';
 
 $_['column_action']          = 'Thao tác';
+$_['column_category']         = 'Danh mục';
 
 
 

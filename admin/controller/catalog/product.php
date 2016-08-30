@@ -354,6 +354,7 @@ class ControllerCatalogProduct extends Controller {
 
 		$results = $this->model_catalog_product->getProducts($filter_data);
 
+		$this->load->model('catalog/category');
 		foreach ($results as $result) {
 			if (is_file(DIR_IMAGE . $result['image'])) {
 				$image = $this->model_tool_image->resize($result['image'], 40, 40);
@@ -373,8 +374,22 @@ class ControllerCatalogProduct extends Controller {
 				}
 			}
 
+			$product_category = $this->model_catalog_product->getProductCategories($result['product_id']);
+			$product_categories = array();
+			foreach ($product_category as $category_id) {
+				$category_info = $this->model_catalog_category->getCategory($category_id);
+
+				if ($category_info) {
+					$product_categories[] = array(
+							'category_id' => $category_info['category_id'],
+							'name'        => ($category_info['path']) ? $category_info['path'] . ' &gt; ' . $category_info['name'] : $category_info['name']
+					);
+				}
+			}
+
 			$data['products'][] = array(
 				'product_id' => $result['product_id'],
+				'product_categories' => $product_categories,
 				'image'      => $image,
 				'name'       => $result['name'],
 				'model'      => $result['model'],
@@ -399,6 +414,7 @@ class ControllerCatalogProduct extends Controller {
 		$data['column_model'] = $this->language->get('column_model');
 		$data['column_price'] = $this->language->get('column_price');
 		$data['column_quantity'] = $this->language->get('column_quantity');
+		$data['column_category'] = $this->language->get('column_category');
 		$data['column_status'] = $this->language->get('column_status');
 		$data['column_action'] = $this->language->get('column_action');
 

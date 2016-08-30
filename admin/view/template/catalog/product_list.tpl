@@ -116,6 +116,7 @@
                     <?php } else { ?>
                     <a href="<?php echo $sort_quantity; ?>"><?php echo $column_quantity; ?></a>
                     <?php } ?></td>
+                  <td class="text-right"><?php echo $column_category; ?></td>
                   <td class="text-left"><?php if ($sort == 'p.status') { ?>
                     <a href="<?php echo $sort_status; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_status; ?></a>
                     <?php } else { ?>
@@ -153,13 +154,22 @@
                     <?php } else { ?>
                     <span class="label label-success"><?php echo $product['quantity']; ?></span>
                     <?php } ?></td>
+                  <td class="text-left">
+                    <?php
+                    if ($product['product_categories']){
+                      foreach ($product['product_categories'] as $category){
+                        echo $category['name'].'<br/>';
+                      }
+                    }
+                    ?>
+                  </td>
                   <td class="text-left"><?php echo $product['status']; ?></td>
                   <td class="text-right"><a href="<?php echo $product['edit']; ?>" data-toggle="tooltip" title="<?php echo $button_edit; ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
                 </tr>
                 <?php } ?>
                 <?php } else { ?>
                 <tr>
-                  <td class="text-center" colspan="8"><?php echo $text_no_results; ?></td>
+                  <td class="text-center" colspan="9"><?php echo $text_no_results; ?></td>
                 </tr>
                 <?php } ?>
               </tbody>
