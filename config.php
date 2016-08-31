@@ -6,7 +6,7 @@ define('HTTP_SERVER', 'http://localhost/shop/');
 define('HTTPS_SERVER', 'http://localhost/shop/');
 
 // DIR
-$root = 'D:/xampp/htdocs/shop/';
+$root = 'E:/xampp/htdocs/shop/';
 define('DIR_APPLICATION', $root . 'catalog/');
 define('DIR_SYSTEM', $root . 'system/');
 define('DIR_IMAGE', $root . 'image/');

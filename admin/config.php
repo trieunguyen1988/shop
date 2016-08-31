@@ -8,7 +8,7 @@ define('HTTPS_SERVER', 'http://localhost/shop/admin/');
 define('HTTPS_CATALOG', 'http://localhost/shop/');
 
 // DIR
-$root = 'D:/xampp/htdocs/shop/';
+$root = 'E:/xampp/htdocs/shop/';
 define('DIR_APPLICATION', $root . 'admin/');
 define('DIR_SYSTEM', $root . 'system/');
 define('DIR_IMAGE', $root . 'image/');

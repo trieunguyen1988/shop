@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="280520b7-3050-4e32-ac8b-91598750de03" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.country.admin.1472555316" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1472555478" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.information.2.1472555317" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.2.1472555316" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.2.1472558212" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.return_status.2.1472555317" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1472558212" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.2.1472555316" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.zone.230.1472555319" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/common/column_left.php" afterPath="$PROJECT_DIR$/admin/controller/common/column_left.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/vi-vn/common/column_left.php" afterPath="$PROJECT_DIR$/admin/language/vi-vn/common/column_left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/shop_2016-08-30_19-57-01_backup.sql" afterPath="$PROJECT_DIR$/DB/shop_2016-08-30_19-57-01_backup.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config.php" afterPath="$PROJECT_DIR$/admin/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/module/category.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/vi-vn/common/footer.php" afterPath="$PROJECT_DIR$/catalog/language/vi-vn/common/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/error.log" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" />
     </list>
     <ignored path="shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category.tpl">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.275862">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state vertical-scroll-proportion="-9.655172">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -43,8 +53,8 @@
       <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.827586">
-              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+            <state vertical-scroll-proportion="-2.7333333">
+              <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -53,485 +63,49 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.883333">
+              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="featured.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/featured.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.344828">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.793103">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/language/vi-vn/common/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5882353">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.655172">
-              <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/controller/catalog/product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8965516">
-              <caret line="777" column="19" selection-start-line="777" selection-start-column="19" selection-end-line="777" selection-end-column="19" />
-              <folding>
-                <element signature="n#index#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#723#894#0#PHP" expanded="false" />
-                <element signature="e#899#1073#0#PHP" expanded="false" />
-                <element signature="e#1078#1200#0#PHP" expanded="false" />
-                <element signature="e#1205#1336#0#PHP" expanded="false" />
-                <element signature="e#1341#1466#0#PHP" expanded="false" />
-                <element signature="e#1471#1569#0#PHP" expanded="false" />
-                <element signature="e#1574#1675#0#PHP" expanded="false" />
-                <element signature="e#1680#1778#0#PHP" expanded="false" />
-                <element signature="n#edit#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#2115#3580#0#PHP" expanded="false" />
-                <element signature="e#2398#2569#0#PHP" expanded="false" />
-                <element signature="e#2574#2748#0#PHP" expanded="false" />
-                <element signature="e#2753#2875#0#PHP" expanded="false" />
-                <element signature="e#2880#3011#0#PHP" expanded="false" />
-                <element signature="e#3016#3141#0#PHP" expanded="false" />
-                <element signature="e#3146#3244#0#PHP" expanded="false" />
-                <element signature="e#3249#3350#0#PHP" expanded="false" />
-                <element signature="e#3355#3453#0#PHP" expanded="false" />
-                <element signature="n#delete#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#3792#5273#0#PHP" expanded="false" />
-                <element signature="e#3869#3995#0#PHP" expanded="false" />
-                <element signature="e#4091#4262#0#PHP" expanded="false" />
-                <element signature="e#4267#4441#0#PHP" expanded="false" />
-                <element signature="e#4446#4568#0#PHP" expanded="false" />
-                <element signature="e#4573#4704#0#PHP" expanded="false" />
-                <element signature="e#4709#4834#0#PHP" expanded="false" />
-                <element signature="e#4839#4937#0#PHP" expanded="false" />
-                <element signature="e#4942#5043#0#PHP" expanded="false" />
-                <element signature="e#5048#5146#0#PHP" expanded="false" />
-                <element signature="n#copy#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#5483#6960#0#PHP" expanded="false" />
-                <element signature="e#5558#5682#0#PHP" expanded="false" />
-                <element signature="e#5778#5949#0#PHP" expanded="false" />
-                <element signature="e#5954#6128#0#PHP" expanded="false" />
-                <element signature="e#6133#6255#0#PHP" expanded="false" />
-                <element signature="e#6260#6391#0#PHP" expanded="false" />
-                <element signature="e#6396#6521#0#PHP" expanded="false" />
-                <element signature="e#6526#6624#0#PHP" expanded="false" />
-                <element signature="e#6629#6730#0#PHP" expanded="false" />
-                <element signature="e#6735#6833#0#PHP" expanded="false" />
-                <element signature="n#getList#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#7020#7161#0#PHP" expanded="false" />
-                <element signature="e#7127#7161#0#PHP" expanded="false" />
-                <element signature="e#7165#7310#0#PHP" expanded="false" />
-                <element signature="e#7275#7310#0#PHP" expanded="false" />
-                <element signature="e#7314#7459#0#PHP" expanded="false" />
-                <element signature="e#7424#7459#0#PHP" expanded="false" />
-                <element signature="e#7463#7620#0#PHP" expanded="false" />
-                <element signature="e#7582#7620#0#PHP" expanded="false" />
-                <element signature="e#7624#7773#0#PHP" expanded="false" />
-                <element signature="e#7737#7773#0#PHP" expanded="false" />
-                <element signature="e#7777#7922#0#PHP" expanded="false" />
-                <element signature="e#7887#7922#0#PHP" expanded="false" />
-                <element signature="e#7926#8044#0#PHP" expanded="false" />
-                <element signature="e#8012#8044#0#PHP" expanded="false" />
-                <element signature="e#8048#8166#0#PHP" expanded="false" />
-                <element signature="e#8137#8166#0#PHP" expanded="false" />
-                <element signature="e#8170#8280#0#PHP" expanded="false" />
-                <element signature="e#8256#8280#0#PHP" expanded="false" />
-                <element signature="e#8298#8467#0#PHP" expanded="false" />
-                <element signature="e#8471#8643#0#PHP" expanded="false" />
-                <element signature="e#8647#8767#0#PHP" expanded="false" />
-                <element signature="e#8771#8900#0#PHP" expanded="false" />
-                <element signature="e#8904#9027#0#PHP" expanded="false" />
-                <element signature="e#9031#9151#0#PHP" expanded="false" />
-                <element signature="e#9155#9251#0#PHP" expanded="false" />
-                <element signature="e#9255#9354#0#PHP" expanded="false" />
-                <element signature="e#9358#9454#0#PHP" expanded="false" />
-                <element signature="e#9518#9674#0#PHP" expanded="false" />
-                <element signature="e#9704#9870#0#PHP" expanded="false" />
-                <element signature="e#10270#10721#0#PHP" expanded="false" />
-                <element signature="e#10958#12808#0#PHP" expanded="false" />
-                <element signature="e#10993#11196#0#PHP" expanded="false" />
-                <element signature="e#11115#11196#0#PHP" expanded="false" />
-                <element signature="e#11320#11653#0#PHP" expanded="false" />
-                <element signature="e#11375#11648#0#PHP" expanded="false" />
-                <element signature="e#11790#12186#0#PHP" expanded="false" />
-                <element signature="e#11920#12181#0#PHP" expanded="false" />
-                <element signature="e#11971#12174#0#PHP" expanded="false" />
-                <element signature="e#12213#12803#0#PHP" expanded="false" />
-                <element signature="e#14476#14613#0#PHP" expanded="false" />
-                <element signature="e#14571#14613#0#PHP" expanded="false" />
-                <element signature="e#14617#14802#0#PHP" expanded="false" />
-                <element signature="e#14766#14802#0#PHP" expanded="false" />
-                <element signature="e#14806#14963#0#PHP" expanded="false" />
-                <element signature="e#14921#14963#0#PHP" expanded="false" />
-                <element signature="e#14981#15150#0#PHP" expanded="false" />
-                <element signature="e#15154#15326#0#PHP" expanded="false" />
-                <element signature="e#15330#15450#0#PHP" expanded="false" />
-                <element signature="e#15454#15583#0#PHP" expanded="false" />
-                <element signature="e#15587#15710#0#PHP" expanded="false" />
-                <element signature="e#15714#15834#0#PHP" expanded="false" />
-                <element signature="e#15838#15926#0#PHP" expanded="false" />
-                <element signature="e#15891#15926#0#PHP" expanded="false" />
-                <element signature="e#15930#16026#0#PHP" expanded="false" />
-                <element signature="e#16861#17030#0#PHP" expanded="false" />
-                <element signature="e#17034#17206#0#PHP" expanded="false" />
-                <element signature="e#17210#17330#0#PHP" expanded="false" />
-                <element signature="e#17334#17463#0#PHP" expanded="false" />
-                <element signature="e#17467#17590#0#PHP" expanded="false" />
-                <element signature="e#17594#17714#0#PHP" expanded="false" />
-                <element signature="e#17718#17814#0#PHP" expanded="false" />
-                <element signature="e#17818#17917#0#PHP" expanded="false" />
-                <element signature="e#18286#18743#0#PHP" expanded="false" />
-                <element signature="e#26500#26637#0#PHP" expanded="false" />
-                <element signature="e#26595#26637#0#PHP" expanded="false" />
-                <element signature="e#26641#26771#0#PHP" expanded="false" />
-                <element signature="e#26727#26771#0#PHP" expanded="false" />
-                <element signature="e#26775#26929#0#PHP" expanded="false" />
-                <element signature="e#26879#26929#0#PHP" expanded="false" />
-                <element signature="e#26933#27062#0#PHP" expanded="false" />
-                <element signature="e#27022#27062#0#PHP" expanded="false" />
-                <element signature="e#27066#27203#0#PHP" expanded="false" />
-                <element signature="e#27161#27203#0#PHP" expanded="false" />
-                <element signature="e#27221#27390#0#PHP" expanded="false" />
-                <element signature="e#27394#27566#0#PHP" expanded="false" />
-                <element signature="e#27570#27690#0#PHP" expanded="false" />
-                <element signature="e#27694#27823#0#PHP" expanded="false" />
-                <element signature="e#27827#27950#0#PHP" expanded="false" />
-                <element signature="e#27954#28050#0#PHP" expanded="false" />
-                <element signature="e#28054#28153#0#PHP" expanded="false" />
-                <element signature="e#28157#28253#0#PHP" expanded="false" />
-                <element signature="e#28317#28473#0#PHP" expanded="false" />
-                <element signature="e#28503#28669#0#PHP" expanded="false" />
-                <element signature="e#28674#29025#0#PHP" expanded="false" />
-                <element signature="e#28844#29025#0#PHP" expanded="false" />
-                <element signature="e#29142#29345#0#PHP" expanded="false" />
-                <element signature="e#29524#29897#0#PHP" expanded="false" />
-                <element signature="e#29665#29843#0#PHP" expanded="false" />
-                <element signature="e#29844#29897#0#PHP" expanded="false" />
-                <element signature="e#29901#30115#0#PHP" expanded="false" />
-                <element signature="e#30000#30080#0#PHP" expanded="false" />
-                <element signature="e#30081#30115#0#PHP" expanded="false" />
-                <element signature="e#30119#30321#0#PHP" expanded="false" />
-                <element signature="e#30212#30288#0#PHP" expanded="false" />
-                <element signature="e#30289#30321#0#PHP" expanded="false" />
-                <element signature="e#30325#30527#0#PHP" expanded="false" />
-                <element signature="e#30418#30494#0#PHP" expanded="false" />
-                <element signature="e#30495#30527#0#PHP" expanded="false" />
-                <element signature="e#30531#30733#0#PHP" expanded="false" />
-                <element signature="e#30624#30700#0#PHP" expanded="false" />
-                <element signature="e#30701#30733#0#PHP" expanded="false" />
-                <element signature="e#30737#30939#0#PHP" expanded="false" />
-                <element signature="e#30830#30906#0#PHP" expanded="false" />
-                <element signature="e#30907#30939#0#PHP" expanded="false" />
-                <element signature="e#30943#31151#0#PHP" expanded="false" />
-                <element signature="e#31039#31117#0#PHP" expanded="false" />
-                <element signature="e#31118#31151#0#PHP" expanded="false" />
-                <element signature="e#31155#31357#0#PHP" expanded="false" />
-                <element signature="e#31248#31324#0#PHP" expanded="false" />
-                <element signature="e#31325#31357#0#PHP" expanded="false" />
-                <element signature="e#31361#31593#0#PHP" expanded="false" />
-                <element signature="e#31469#31555#0#PHP" expanded="false" />
-                <element signature="e#31556#31593#0#PHP" expanded="false" />
-                <element signature="e#31699#32037#0#PHP" expanded="false" />
-                <element signature="e#31822#31988#0#PHP" expanded="false" />
-                <element signature="e#31989#32037#0#PHP" expanded="false" />
-                <element signature="e#32041#32267#0#PHP" expanded="false" />
-                <element signature="e#32146#32230#0#PHP" expanded="false" />
-                <element signature="e#32231#32267#0#PHP" expanded="false" />
-                <element signature="e#32271#32502#0#PHP" expanded="false" />
-                <element signature="e#32379#32465#0#PHP" expanded="false" />
-                <element signature="e#32466#32502#0#PHP" expanded="false" />
-                <element signature="e#32506#32720#0#PHP" expanded="false" />
-                <element signature="e#32605#32685#0#PHP" expanded="false" />
-                <element signature="e#32686#32720#0#PHP" expanded="false" />
-                <element signature="e#32842#33176#0#PHP" expanded="false" />
-                <element signature="e#32980#33123#0#PHP" expanded="false" />
-                <element signature="e#33124#33176#0#PHP" expanded="false" />
-                <element signature="e#33309#33564#0#PHP" expanded="false" />
-                <element signature="e#33429#33523#0#PHP" expanded="false" />
-                <element signature="e#33524#33564#0#PHP" expanded="false" />
-                <element signature="e#33568#33904#0#PHP" expanded="false" />
-                <element signature="e#33694#33849#0#PHP" expanded="false" />
-                <element signature="e#33850#33904#0#PHP" expanded="false" />
-                <element signature="e#33908#34139#0#PHP" expanded="false" />
-                <element signature="e#34016#34102#0#PHP" expanded="false" />
-                <element signature="e#34103#34139#0#PHP" expanded="false" />
-                <element signature="e#34143#34368#0#PHP" expanded="false" />
-                <element signature="e#34248#34332#0#PHP" expanded="false" />
-                <element signature="e#34333#34368#0#PHP" expanded="false" />
-                <element signature="e#34372#34603#0#PHP" expanded="false" />
-                <element signature="e#34480#34566#0#PHP" expanded="false" />
-                <element signature="e#34567#34603#0#PHP" expanded="false" />
-                <element signature="e#34607#34850#0#PHP" expanded="false" />
-                <element signature="e#34721#34811#0#PHP" expanded="false" />
-                <element signature="e#34812#34850#0#PHP" expanded="false" />
-                <element signature="e#34995#35268#0#PHP" expanded="false" />
-                <element signature="e#35124#35224#0#PHP" expanded="false" />
-                <element signature="e#35225#35268#0#PHP" expanded="false" />
-                <element signature="e#35272#35494#0#PHP" expanded="false" />
-                <element signature="e#35374#35456#0#PHP" expanded="false" />
-                <element signature="e#35457#35494#0#PHP" expanded="false" />
-                <element signature="e#35498#35718#0#PHP" expanded="false" />
-                <element signature="e#35600#35682#0#PHP" expanded="false" />
-                <element signature="e#35683#35718#0#PHP" expanded="false" />
-                <element signature="e#35863#36179#0#PHP" expanded="false" />
-                <element signature="e#35992#36092#0#PHP" expanded="false" />
-                <element signature="e#36093#36179#0#PHP" expanded="false" />
-                <element signature="e#36183#36403#0#PHP" expanded="false" />
-                <element signature="e#36285#36367#0#PHP" expanded="false" />
-                <element signature="e#36368#36403#0#PHP" expanded="false" />
-                <element signature="e#36407#36621#0#PHP" expanded="false" />
-                <element signature="e#36506#36586#0#PHP" expanded="false" />
-                <element signature="e#36587#36621#0#PHP" expanded="false" />
-                <element signature="e#36625#36845#0#PHP" expanded="false" />
-                <element signature="e#36727#36809#0#PHP" expanded="false" />
-                <element signature="e#36810#36845#0#PHP" expanded="false" />
-                <element signature="e#36990#37306#0#PHP" expanded="false" />
-                <element signature="e#37119#37219#0#PHP" expanded="false" />
-                <element signature="e#37220#37306#0#PHP" expanded="false" />
-                <element signature="e#37357#37630#0#PHP" expanded="false" />
-                <element signature="e#37486#37586#0#PHP" expanded="false" />
-                <element signature="e#37587#37630#0#PHP" expanded="false" />
-                <element signature="e#37634#38077#0#PHP" expanded="false" />
-                <element signature="e#37754#38035#0#PHP" expanded="false" />
-                <element signature="e#37901#38031#0#PHP" expanded="false" />
-                <element signature="e#37988#38031#0#PHP" expanded="false" />
-                <element signature="e#38036#38077#0#PHP" expanded="false" />
-                <element signature="e#38140#38454#0#PHP" expanded="false" />
-                <element signature="e#38258#38417#0#PHP" expanded="false" />
-                <element signature="e#38418#38454#0#PHP" expanded="false" />
-                <element signature="e#38500#38888#0#PHP" expanded="false" />
-                <element signature="e#38622#38884#0#PHP" expanded="false" />
-                <element signature="e#38680#38878#0#PHP" expanded="false" />
-                <element signature="e#38946#39244#0#PHP" expanded="false" />
-                <element signature="e#39057#39210#0#PHP" expanded="false" />
-                <element signature="e#39211#39244#0#PHP" expanded="false" />
-                <element signature="e#39287#39594#0#PHP" expanded="false" />
-                <element signature="e#39396#39590#0#PHP" expanded="false" />
-                <element signature="e#39449#39584#0#PHP" expanded="false" />
-                <element signature="e#39658#39998#0#PHP" expanded="false" />
-                <element signature="e#39786#39953#0#PHP" expanded="false" />
-                <element signature="e#39954#39998#0#PHP" expanded="false" />
-                <element signature="e#40044#40519#0#PHP" expanded="false" />
-                <element signature="e#40205#40515#0#PHP" expanded="false" />
-                <element signature="e#40264#40509#0#PHP" expanded="false" />
-                <element signature="e#40577#40899#0#PHP" expanded="false" />
-                <element signature="e#40696#40857#0#PHP" expanded="false" />
-                <element signature="e#40858#40899#0#PHP" expanded="false" />
-                <element signature="e#40942#42458#0#PHP" expanded="false" />
-                <element signature="e#41035#41959#0#PHP" expanded="false" />
-                <element signature="e#41093#41954#0#PHP" expanded="false" />
-                <element signature="e#41206#41947#0#PHP" expanded="false" />
-                <element signature="e#41993#42453#0#PHP" expanded="false" />
-                <element signature="e#42499#42940#0#PHP" expanded="false" />
-                <element signature="e#42558#42936#0#PHP" expanded="false" />
-                <element signature="e#42722#42931#0#PHP" expanded="false" />
-                <element signature="e#43083#43417#0#PHP" expanded="false" />
-                <element signature="e#43208#43373#0#PHP" expanded="false" />
-                <element signature="e#43374#43417#0#PHP" expanded="false" />
-                <element signature="e#43462#44031#0#PHP" expanded="false" />
-                <element signature="e#43548#44026#0#PHP" expanded="false" />
-                <element signature="e#44035#44363#0#PHP" expanded="false" />
-                <element signature="e#44157#44320#0#PHP" expanded="false" />
-                <element signature="e#44321#44363#0#PHP" expanded="false" />
-                <element signature="e#44407#44909#0#PHP" expanded="false" />
-                <element signature="e#44490#44904#0#PHP" expanded="false" />
-                <element signature="e#44926#45140#0#PHP" expanded="false" />
-                <element signature="e#45025#45105#0#PHP" expanded="false" />
-                <element signature="e#45106#45140#0#PHP" expanded="false" />
-                <element signature="e#45181#45637#0#PHP" expanded="false" />
-                <element signature="e#45377#45547#0#PHP" expanded="false" />
-                <element signature="e#45548#45637#0#PHP" expanded="false" />
-                <element signature="e#45738#46054#0#PHP" expanded="false" />
-                <element signature="e#45854#46013#0#PHP" expanded="false" />
-                <element signature="e#46014#46054#0#PHP" expanded="false" />
-                <element signature="e#46096#46532#0#PHP" expanded="false" />
-                <element signature="e#46145#46335#0#PHP" expanded="false" />
-                <element signature="e#46278#46335#0#PHP" expanded="false" />
-                <element signature="e#46368#46527#0#PHP" expanded="false" />
-                <element signature="e#46594#46928#0#PHP" expanded="false" />
-                <element signature="e#46719#46884#0#PHP" expanded="false" />
-                <element signature="e#46885#46928#0#PHP" expanded="false" />
-                <element signature="e#46973#47279#0#PHP" expanded="false" />
-                <element signature="e#47102#47275#0#PHP" expanded="false" />
-                <element signature="e#47159#47269#0#PHP" expanded="false" />
-                <element signature="e#47283#47586#0#PHP" expanded="false" />
-                <element signature="e#47397#47551#0#PHP" expanded="false" />
-                <element signature="e#47552#47586#0#PHP" expanded="false" />
-                <element signature="e#47630#47915#0#PHP" expanded="false" />
-                <element signature="e#47745#47911#0#PHP" expanded="false" />
-                <element signature="e#47800#47905#0#PHP" expanded="false" />
-                <element signature="e#47919#48139#0#PHP" expanded="false" />
-                <element signature="e#48021#48103#0#PHP" expanded="false" />
-                <element signature="e#48104#48139#0#PHP" expanded="false" />
-                <element signature="e#48143#48486#0#PHP" expanded="false" />
-                <element signature="e#48269#48437#0#PHP" expanded="false" />
-                <element signature="e#48438#48486#0#PHP" expanded="false" />
-                <element signature="e#48490#48833#0#PHP" expanded="false" />
-                <element signature="e#48616#48784#0#PHP" expanded="false" />
-                <element signature="e#48785#48833#0#PHP" expanded="false" />
-                <element signature="n#validateForm#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#49259#49397#0#PHP" expanded="false" />
-                <element signature="e#49401#49841#0#PHP" expanded="false" />
-                <element signature="e#49486#49647#0#PHP" expanded="false" />
-                <element signature="e#49652#49837#0#PHP" expanded="false" />
-                <element signature="e#49845#50021#0#PHP" expanded="false" />
-                <element signature="e#50025#50618#0#PHP" expanded="false" />
-                <element signature="e#50229#50459#0#PHP" expanded="false" />
-                <element signature="e#50464#50614#0#PHP" expanded="false" />
-                <element signature="e#50622#50748#0#PHP" expanded="false" />
-                <element signature="n#validateDelete#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#50819#50957#0#PHP" expanded="false" />
-                <element signature="n#validateCopy#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#51026#51164#0#PHP" expanded="false" />
-                <element signature="n#autocomplete#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-                <element signature="e#51250#54016#0#PHP" expanded="false" />
-                <element signature="e#51432#51575#0#PHP" expanded="false" />
-                <element signature="e#51541#51575#0#PHP" expanded="false" />
-                <element signature="e#51580#51727#0#PHP" expanded="false" />
-                <element signature="e#51692#51727#0#PHP" expanded="false" />
-                <element signature="e#51732#51850#0#PHP" expanded="false" />
-                <element signature="e#51823#51850#0#PHP" expanded="false" />
-                <element signature="e#51870#52008#0#PHP" expanded="false" />
-                <element signature="e#52086#54012#0#PHP" expanded="false" />
-                <element signature="e#52247#53731#0#PHP" expanded="false" />
-                <element signature="e#52391#53725#0#PHP" expanded="false" />
-                <element signature="e#52462#53253#0#PHP" expanded="false" />
-                <element signature="e#52662#53245#0#PHP" expanded="false" />
-                <element signature="e#52727#53235#0#PHP" expanded="false" />
-                <element signature="e#53278#53717#0#PHP" expanded="false" />
-                <element signature="e#53747#54006#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="language.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/model/localisation/language.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5">
-              <caret line="306" column="25" selection-start-line="306" selection-start-column="25" selection-end-line="306" selection-end-column="25" />
-              <folding>
-                <marker date="1466165107408" expanded="true" signature="112:413" placeholder="INSERT INTO ${DB_PREFIX}language..." />
-                <marker date="1466165107408" expanded="true" signature="541:669" placeholder="SELECT * FRO..${DB_PREFIX}attribute_description..." />
-                <marker date="1466165107408" expanded="true" signature="736:946" placeholder="INSERT INTO ${DB_PREFIX}attribute_description..." />
-                <marker date="1466165107408" expanded="true" signature="1005:1139" placeholder="SELECT * FRO..${DB_PREFIX}attribute_group_description..." />
-                <marker date="1466165107408" expanded="true" signature="1212:1452" placeholder="INSERT INTO ${DB_PREFIX}attribute_group_description..." />
-                <marker date="1466165107408" expanded="true" signature="1540:1659" placeholder="SELECT * FRO..${DB_PREFIX}banner_image..." />
-                <marker date="1466165107408" expanded="true" signature="1729:2109" placeholder="INSERT INTO ${DB_PREFIX}banner_image..." />
-                <marker date="1466165107408" expanded="true" signature="2196:2323" placeholder="SELECT * FRO..${DB_PREFIX}category_description..." />
-                <marker date="1466165107408" expanded="true" signature="2389:2880" placeholder="INSERT INTO ${DB_PREFIX}category_description..." />
-                <marker date="1466165107408" expanded="true" signature="2975:3108" placeholder="SELECT * FRO..${DB_PREFIX}customer_group_description..." />
-                <marker date="1466165107408" expanded="true" signature="3180:3490" placeholder="INSERT INTO ${DB_PREFIX}customer_group_description..." />
-                <marker date="1466165107408" expanded="true" signature="3546:3677" placeholder="SELECT * FRO..${DB_PREFIX}custom_field_description..." />
-                <marker date="1466165107408" expanded="true" signature="3747:3972" placeholder="INSERT INTO ${DB_PREFIX}custom_field_description..." />
-                <marker date="1466165107408" expanded="true" signature="4034:4171" placeholder="SELECT * FRO..${DB_PREFIX}custom_field_value_description..." />
-                <marker date="1466165107408" expanded="true" signature="4247:4575" placeholder="INSERT INTO ${DB_PREFIX}custom_field_value_description..." />
-                <marker date="1466165107408" expanded="true" signature="4627:4754" placeholder="SELECT * FRO..${DB_PREFIX}download_description..." />
-                <marker date="1466165107408" expanded="true" signature="4820:5025" placeholder="INSERT INTO ${DB_PREFIX}download_description..." />
-                <marker date="1466165107408" expanded="true" signature="5075:5200" placeholder="SELECT * FRO..${DB_PREFIX}filter_description..." />
-                <marker date="1466165107408" expanded="true" signature="5264:5520" placeholder="INSERT INTO ${DB_PREFIX}filter_description..." />
-                <marker date="1466165107408" expanded="true" signature="5576:5707" placeholder="SELECT * FRO..${DB_PREFIX}filter_group_description..." />
-                <marker date="1466165107408" expanded="true" signature="5777:6002" placeholder="INSERT INTO ${DB_PREFIX}filter_group_description..." />
-                <marker date="1466165107408" expanded="true" signature="6057:6187" placeholder="SELECT * FRO..${DB_PREFIX}information_description..." />
-                <marker date="1466165107408" expanded="true" signature="6256:6776" placeholder="INSERT INTO ${DB_PREFIX}information_description..." />
-                <marker date="1466165107408" expanded="true" signature="6866:6997" placeholder="SELECT * FRO..${DB_PREFIX}length_class_description..." />
-                <marker date="1466165107408" expanded="true" signature="7061:7329" placeholder="INSERT INTO ${DB_PREFIX}length_class_description..." />
-                <marker date="1466165107408" expanded="true" signature="7420:7545" placeholder="SELECT * FRO..${DB_PREFIX}option_description..." />
-                <marker date="1466165107408" expanded="true" signature="7609:7804" placeholder="INSERT INTO ${DB_PREFIX}option_description..." />
-                <marker date="1466165107408" expanded="true" signature="7860:7991" placeholder="SELECT * FRO..${DB_PREFIX}option_value_description..." />
-                <marker date="1466165107408" expanded="true" signature="8061:8341" placeholder="INSERT INTO ${DB_PREFIX}option_value_description..." />
-                <marker date="1466165107408" expanded="true" signature="8397:8516" placeholder="SELECT * FRO..${DB_PREFIX}order_status..." />
-                <marker date="1466165107408" expanded="true" signature="8586:8799" placeholder="INSERT INTO ${DB_PREFIX}order_status..." />
-                <marker date="1466165107408" expanded="true" signature="8891:9017" placeholder="SELECT * FRO..${DB_PREFIX}product_description..." />
-                <marker date="1466165107408" expanded="true" signature="9082:9616" placeholder="INSERT INTO ${DB_PREFIX}product_description..." />
-                <marker date="1466165107408" expanded="true" signature="9713:9837" placeholder="SELECT * FRO..${DB_PREFIX}product_attribute..." />
-                <marker date="1466165107408" expanded="true" signature="9912:10196" placeholder="INSERT INTO ${DB_PREFIX}product_attribute..." />
-                <marker date="1466165107408" expanded="true" signature="10253:10373" placeholder="SELECT * FRO..${DB_PREFIX}return_action..." />
-                <marker date="1466165107408" expanded="true" signature="10444:10662" placeholder="INSERT INTO ${DB_PREFIX}return_action..." />
-                <marker date="1466165107408" expanded="true" signature="10719:10839" placeholder="SELECT * FRO..${DB_PREFIX}return_reason..." />
-                <marker date="1466165107408" expanded="true" signature="10910:11128" placeholder="INSERT INTO ${DB_PREFIX}return_reason..." />
-                <marker date="1466165107408" expanded="true" signature="11185:11305" placeholder="SELECT * FRO..${DB_PREFIX}return_status..." />
-                <marker date="1466165107408" expanded="true" signature="11376:11594" placeholder="INSERT INTO ${DB_PREFIX}return_status..." />
-                <marker date="1466165107408" expanded="true" signature="11650:11769" placeholder="SELECT * FRO..${DB_PREFIX}stock_status..." />
-                <marker date="1466165107408" expanded="true" signature="11839:12052" placeholder="INSERT INTO ${DB_PREFIX}stock_status..." />
-                <marker date="1466165107408" expanded="true" signature="12150:12282" placeholder="SELECT * FRO..${DB_PREFIX}voucher_theme_description..." />
-                <marker date="1466165107408" expanded="true" signature="12353:12583" placeholder="INSERT INTO ${DB_PREFIX}voucher_theme_description..." />
-                <marker date="1466165107408" expanded="true" signature="12681:12812" placeholder="SELECT * FRO..${DB_PREFIX}weight_class_description..." />
-                <marker date="1466165107408" expanded="true" signature="12882:13168" placeholder="INSERT INTO ${DB_PREFIX}weight_class_description..." />
-                <marker date="1466165107408" expanded="true" signature="13261:13389" placeholder="SELECT * FRO..${DB_PREFIX}recurring_description..." />
-                <marker date="1466165107408" expanded="true" signature="13456:13620" placeholder="INSERT INTO ${DB_PREFIX}recurring_description..." />
-                <marker date="1466165107408" expanded="true" signature="13787:13879" placeholder="SELECT `code..${DB_PREFIX}language..." />
-                <marker date="1466165107408" expanded="true" signature="14858:14943" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15005:15103" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15127:15231" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15256:15357" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15382:15479" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15541:15644" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15668:15765" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15789:15884" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="15908:16009" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="16033:16133" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="16198:16299" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="16365:16460" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="16484:16585" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="16609:16698" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="16764:16858" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="16882:16978" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="17039:17129" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="17196:17286" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="17353:17443" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="17510:17599" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="17665:17767" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="17834:17935" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="18001:18099" placeholder="DELETE FROM ..." />
-                <marker date="1466165107408" expanded="true" signature="18181:18277" placeholder="SELECT DISTI..${DB_PREFIX}language..." />
-                <marker date="1466165107408" expanded="true" signature="18383:18422" placeholder="SELECT * FRO..${DB_PREFIX}language..." />
-                <marker date="1466165107408" expanded="true" signature="19263:19328" placeholder="SELECT * FRO..${DB_PREFIX}language..." />
-                <marker date="1466165107408" expanded="true" signature="19940:20029" placeholder="SELECT * FRO..${DB_PREFIX}language..." />
-                <marker date="1466165107408" expanded="true" signature="20128:20183" placeholder="SELECT COUNT..${DB_PREFIX}language..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_list.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4608295">
-              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_form.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.103448">
-              <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
-              <folding>
-                <marker date="1470058558693" expanded="true" signature="72878:72889" placeholder="..." />
-                <marker date="1470058558693" expanded="true" signature="77664:77678" placeholder="..." />
-                <marker date="1470058558693" expanded="true" signature="81518:81532" placeholder="..." />
-                <marker date="1470058558693" expanded="true" signature="86869:86880" placeholder="..." />
-                <marker date="1470058558693" expanded="true" signature="87275:87286" placeholder="..." />
-                <marker date="1470058558693" expanded="true" signature="89009:89020" placeholder="..." />
-                <marker date="1470058558693" expanded="true" signature="89413:89424" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="column_left.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_left.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.241379">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.448277">
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="47" />
-              <folding>
-                <marker date="1472543953116" expanded="true" signature="66:2070" placeholder="..." />
-                <marker date="1472543953116" expanded="true" signature="93:2002" placeholder="..." />
-                <marker date="1472543953116" expanded="true" signature="793:1490" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -546,20 +120,21 @@
       <list>
         <option value="$PROJECT_DIR$/admin/language/vi-vn/default.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/admin/config.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" />
         <option value="$PROJECT_DIR$/admin/model/catalog/product.php" />
         <option value="$PROJECT_DIR$/admin/language/vi-vn/catalog/product.php" />
         <option value="$PROJECT_DIR$/admin/controller/catalog/product.php" />
-        <option value="$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl" />
         <option value="$PROJECT_DIR$/admin/language/vi-vn/common/column_left.php" />
         <option value="$PROJECT_DIR$/admin/controller/common/column_left.php" />
         <option value="$PROJECT_DIR$/catalog/controller/extension/module/category.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category.tpl" />
+        <option value="$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl" />
+        <option value="$PROJECT_DIR$/admin/config.php" />
+        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
         <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
+        <option value="$PROJECT_DIR$/catalog/language/vi-vn/common/footer.php" />
       </list>
     </option>
   </component>
@@ -575,8 +150,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -631,7 +206,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,11 +228,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -667,11 +258,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -679,7 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
+              <option name="myItemId" value="extension" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -693,7 +292,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -711,11 +370,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,58 +381,102 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localisation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="language" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vi-vn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="language" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vi-vn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="language" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -841,14 +540,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18390192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24621212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -859,6 +557,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -879,14 +578,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/controller/common/column_left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="69" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/language/vi-vn/common/vq2-admin_language_english_common_menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -905,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/featured.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6103286">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/language/vi-vn/product/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1046,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,15 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,26 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9889706">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49078342">
           <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.437788">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33253872">
           <caret line="39" column="40" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,24 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34447005">
           <caret line="40" column="392" selection-start-line="40" selection-start-column="392" selection-end-line="40" selection-end-column="392" />
-          <folding>
-            <marker date="1467224279572" expanded="true" signature="435:560" placeholder="DELETE FROM ..." />
-            <marker date="1467224279572" expanded="true" signature="991:1137" placeholder="SELECT * FRO..${DB_PREFIX}cart..." />
-            <marker date="1467224279572" expanded="true" signature="1206:1287" placeholder="DELETE FROM ..." />
-            <marker date="1467224279572" expanded="true" signature="1643:1913" placeholder="SELECT * FRO..${DB_PREFIX}cart..." />
-            <marker date="1467224279572" expanded="true" signature="2016:2479" placeholder="SELECT * FRO..${DB_PREFIX}product_to_store..." />
-            <marker date="1467224279572" expanded="true" signature="2763:3207" placeholder="SELECT po.pr..${DB_PREFIX}product_option..." />
-            <marker date="1467224279572" expanded="true" signature="3388:3979" placeholder="SELECT pov.o..${DB_PREFIX}product_option_value..." />
-            <marker date="1467224279572" expanded="true" signature="6338:6859" placeholder="SELECT pov.o..${DB_PREFIX}product_option_value..." />
-            <marker date="1467224279572" expanded="true" signature="10449:10852" placeholder="SELECT price..${DB_PREFIX}product_discount..." />
-            <marker date="1467224279572" expanded="true" signature="11033:11370" placeholder="SELECT price..${DB_PREFIX}product_special..." />
-            <marker date="1467224279572" expanded="true" signature="11545:11735" placeholder="SELECT point..${DB_PREFIX}product_reward..." />
-            <marker date="1467224279572" expanded="true" signature="11962:12313" placeholder="SELECT * FRO..${DB_PREFIX}product_to_download..." />
-            <marker date="1467224279572" expanded="true" signature="12776:13290" placeholder="SELECT * FRO..${DB_PREFIX}recurring..." />
-            <marker date="1467224279572" expanded="true" signature="15755:16198" placeholder="SELECT COUNT..${DB_PREFIX}cart..." />
-            <marker date="1467224279572" expanded="true" signature="17706:18012" placeholder="DELETE FROM ..." />
-            <marker date="1467224279572" expanded="true" signature="18067:18335" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,122 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38423645">
           <caret line="448" column="5" selection-start-line="448" selection-start-column="5" selection-end-line="448" selection-end-column="5" />
-          <folding>
-            <marker date="1472529732174" expanded="true" signature="105:1452" placeholder="INSERT INTO ${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="1782:2293" placeholder="INSERT INTO ${DB_PREFIX}product_description..." />
-            <marker date="1472529732174" expanded="true" signature="2414:2540" placeholder="INSERT INTO ${DB_PREFIX}product_to_store..." />
-            <marker date="1472529732174" expanded="true" signature="2757:2918" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="3066:3273" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="3302:3578" placeholder="INSERT INTO ${DB_PREFIX}product_attribute..." />
-            <marker date="1472529732174" expanded="true" signature="3950:4149" placeholder="INSERT INTO ${DB_PREFIX}product_option..." />
-            <marker date="1472529732174" expanded="true" signature="4314:5142" placeholder="INSERT INTO ${DB_PREFIX}product_option_value..." />
-            <marker date="1472529732174" expanded="true" signature="5197:5459" placeholder="INSERT INTO ${DB_PREFIX}product_option..." />
-            <marker date="1472529732174" expanded="true" signature="5605:6082" placeholder="INSERT INTO ${DB_PREFIX}product_discount..." />
-            <marker date="1472529732174" expanded="true" signature="6219:6633" placeholder="INSERT INTO ${DB_PREFIX}product_special..." />
-            <marker date="1472529732174" expanded="true" signature="6764:6970" placeholder="INSERT INTO ${DB_PREFIX}product_image..." />
-            <marker date="1472529732174" expanded="true" signature="7105:7240" placeholder="INSERT INTO ${DB_PREFIX}product_to_download..." />
-            <marker date="1472529732174" expanded="true" signature="7375:7510" placeholder="INSERT INTO ${DB_PREFIX}product_to_category..." />
-            <marker date="1472529732174" expanded="true" signature="7639:7765" placeholder="INSERT INTO ${DB_PREFIX}product_filter..." />
-            <marker date="1472529732174" expanded="true" signature="7897:8031" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="8057:8186" placeholder="INSERT INTO ${DB_PREFIX}product_related..." />
-            <marker date="1472529732174" expanded="true" signature="8212:8346" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="8372:8501" placeholder="INSERT INTO ${DB_PREFIX}product_related..." />
-            <marker date="1472529732174" expanded="true" signature="8704:8897" placeholder="INSERT INTO ${DB_PREFIX}product_reward..." />
-            <marker date="1472529732174" expanded="true" signature="9045:9211" placeholder="INSERT INTO ${DB_PREFIX}product_to_layout..." />
-            <marker date="1472529732174" expanded="true" signature="9272:9417" placeholder="INSERT INTO ${DB_PREFIX}url_alias..." />
-            <marker date="1472529732174" expanded="true" signature="9547:9724" placeholder="INSERT INTO `${DB_PREFIX}product_recurring`..." />
-            <marker date="1472529732174" expanded="true" signature="11515:11609" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="11704:12215" placeholder="INSERT INTO ${DB_PREFIX}product_description..." />
-            <marker date="1472529732174" expanded="true" signature="12244:12335" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="12452:12578" placeholder="INSERT INTO ${DB_PREFIX}product_to_store..." />
-            <marker date="1472529732174" expanded="true" signature="12612:12704" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="12913:13074" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="13222:13498" placeholder="INSERT INTO ${DB_PREFIX}product_attribute..." />
-            <marker date="1472529732174" expanded="true" signature="13545:13634" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="13658:13753" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="14103:14375" placeholder="INSERT INTO ${DB_PREFIX}product_option..." />
-            <marker date="1472529732174" expanded="true" signature="14540:15459" placeholder="INSERT INTO ${DB_PREFIX}product_option_value..." />
-            <marker date="1472529732174" expanded="true" signature="15514:15849" placeholder="INSERT INTO ${DB_PREFIX}product_option..." />
-            <marker date="1472529732174" expanded="true" signature="15889:15980" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="16111:16588" placeholder="INSERT INTO ${DB_PREFIX}product_discount..." />
-            <marker date="1472529732174" expanded="true" signature="16622:16712" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="16840:17254" placeholder="INSERT INTO ${DB_PREFIX}product_special..." />
-            <marker date="1472529732174" expanded="true" signature="17288:17376" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="17498:17704" placeholder="INSERT INTO ${DB_PREFIX}product_image..." />
-            <marker date="1472529732174" expanded="true" signature="17738:17832" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="17958:18093" placeholder="INSERT INTO ${DB_PREFIX}product_to_download..." />
-            <marker date="1472529732174" expanded="true" signature="18127:18221" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="18347:18482" placeholder="INSERT INTO ${DB_PREFIX}product_to_category..." />
-            <marker date="1472529732174" expanded="true" signature="18516:18605" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="18725:18851" placeholder="INSERT INTO ${DB_PREFIX}product_filter..." />
-            <marker date="1472529732174" expanded="true" signature="18885:18975" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="18999:19089" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="19212:19346" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="19372:19501" placeholder="INSERT INTO ${DB_PREFIX}product_related..." />
-            <marker date="1472529732174" expanded="true" signature="19527:19661" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="19687:19816" placeholder="INSERT INTO ${DB_PREFIX}product_related..." />
-            <marker date="1472529732174" expanded="true" signature="19850:19939" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="20115:20299" placeholder="INSERT INTO ${DB_PREFIX}product_reward..." />
-            <marker date="1472529732174" expanded="true" signature="20339:20431" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="20564:20730" placeholder="INSERT INTO ${DB_PREFIX}product_to_layout..." />
-            <marker date="1472529732174" expanded="true" signature="20764:20854" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="20906:21051" placeholder="INSERT INTO ${DB_PREFIX}url_alias..." />
-            <marker date="1472529732174" expanded="true" signature="21080:21148" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="21301:21486" placeholder="INSERT INTO `${DB_PREFIX}product_recurring`..." />
-            <marker date="1472529732174" expanded="true" signature="21654:21751" placeholder="SELECT DISTI..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="23014:23096" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23120:23212" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23236:23330" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23354:23445" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23469:23558" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23582:23670" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23694:23783" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23807:23902" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="23926:24016" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24040:24130" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24154:24243" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24267:24357" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24381:24475" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24499:24593" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24617:24709" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24733:24824" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24848:24914" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="24957:25038" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="25062:25152" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="25176:25265" placeholder="DELETE FROM ..." />
-            <marker date="1472529732174" expanded="true" signature="25381:25752" placeholder="SELECT DISTI..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="25401:25499" placeholder="SELECT keywo..${DB_PREFIX}url_alias..." />
-            <marker date="1472529732174" expanded="true" signature="25841:26044" placeholder="SELECT * FRO..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="27904:28264" placeholder="SELECT * FRO..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="28420:28516" placeholder="SELECT * FRO..${DB_PREFIX}product_description..." />
-            <marker date="1472529732174" expanded="true" signature="29080:29176" placeholder="SELECT * FRO..${DB_PREFIX}product_to_category..." />
-            <marker date="1472529732174" expanded="true" signature="29429:29520" placeholder="SELECT * FRO..${DB_PREFIX}product_filter..." />
-            <marker date="1472529732174" expanded="true" signature="29791:29918" placeholder="SELECT attri..${DB_PREFIX}product_attribute..." />
-            <marker date="1472529732174" expanded="true" signature="30101:30264" placeholder="SELECT * FRO..${DB_PREFIX}product_attribute..." />
-            <marker date="1472529732174" expanded="true" signature="30879:31208" placeholder="SELECT * FRO..${DB_PREFIX}product_option..." />
-            <marker date="1472529732174" expanded="true" signature="31367:31619" placeholder="SELECT * FRO..${DB_PREFIX}product_option_value..." />
-            <marker date="1472529732174" expanded="true" signature="33071:33666" placeholder="SELECT pov.o..${DB_PREFIX}product_option_value..." />
-            <marker date="1472529732174" expanded="true" signature="33775:33889" placeholder="SELECT * FRO..${DB_PREFIX}product_image..." />
-            <marker date="1472529732174" expanded="true" signature="34002:34130" placeholder="SELECT * FRO..${DB_PREFIX}product_discount..." />
-            <marker date="1472529732174" expanded="true" signature="34242:34359" placeholder="SELECT * FRO..${DB_PREFIX}product_special..." />
-            <marker date="1472529732174" expanded="true" signature="34505:34596" placeholder="SELECT * FRO..${DB_PREFIX}product_reward..." />
-            <marker date="1472529732174" expanded="true" signature="34891:34987" placeholder="SELECT * FRO..${DB_PREFIX}product_to_download..." />
-            <marker date="1472529732174" expanded="true" signature="35238:35331" placeholder="SELECT * FRO..${DB_PREFIX}product_to_store..." />
-            <marker date="1472529732174" expanded="true" signature="35575:35669" placeholder="SELECT * FRO..${DB_PREFIX}product_to_layout..." />
-            <marker date="1472529732174" expanded="true" signature="35936:36028" placeholder="SELECT * FRO..${DB_PREFIX}product_related..." />
-            <marker date="1472529732174" expanded="true" signature="36239:36335" placeholder="SELECT * FRO..${DB_PREFIX}product_recurring..." />
-            <marker date="1472529732174" expanded="true" signature="36430:36590" placeholder="SELECT COUNT..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="37875:37979" placeholder="SELECT COUNT..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="38117:38227" placeholder="SELECT COUNT..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="38365:38475" placeholder="SELECT COUNT..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="38613:38723" placeholder="SELECT COUNT..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="38854:38968" placeholder="SELECT COUNT..${DB_PREFIX}product_to_download..." />
-            <marker date="1472529732174" expanded="true" signature="39107:39217" placeholder="SELECT COUNT..${DB_PREFIX}product..." />
-            <marker date="1472529732174" expanded="true" signature="39350:39464" placeholder="SELECT COUNT..${DB_PREFIX}product_attribute..." />
-            <marker date="1472529732174" expanded="true" signature="39591:39696" placeholder="SELECT COUNT..${DB_PREFIX}product_option..." />
-            <marker date="1472529732174" expanded="true" signature="39827:39941" placeholder="SELECT COUNT..${DB_PREFIX}product_recurring..." />
-            <marker date="1472529732174" expanded="true" signature="40068:40176" placeholder="SELECT COUNT..${DB_PREFIX}product_to_layout..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1271,58 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33253872">
           <caret line="205" column="557" selection-start-line="205" selection-start-column="546" selection-end-line="205" selection-end-column="557" />
-          <folding>
-            <marker date="1466165107253" expanded="true" signature="107:435" placeholder="INSERT INTO ${DB_PREFIX}category..." />
-            <marker date="1466165107253" expanded="true" signature="770:1234" placeholder="INSERT INTO ${DB_PREFIX}category_description..." />
-            <marker date="1466165107253" expanded="true" signature="1338:1459" placeholder="SELECT * FRO..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="1523:1695" placeholder="INSERT INTO `${DB_PREFIX}category_path`..." />
-            <marker date="1466165107253" expanded="true" signature="1738:1904" placeholder="INSERT INTO `${DB_PREFIX}category_path`..." />
-            <marker date="1466165107253" expanded="true" signature="2026:2155" placeholder="INSERT INTO ${DB_PREFIX}category_filter..." />
-            <marker date="1466165107253" expanded="true" signature="2283:2412" placeholder="INSERT INTO ${DB_PREFIX}category_to_store..." />
-            <marker date="1466165107253" expanded="true" signature="2604:2773" placeholder="INSERT INTO ${DB_PREFIX}category_to_layout..." />
-            <marker date="1466165107253" expanded="true" signature="2841:2988" placeholder="INSERT INTO ${DB_PREFIX}url_alias..." />
-            <marker date="1466165107253" expanded="true" signature="3707:3804" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="3900:4364" placeholder="INSERT INTO ${DB_PREFIX}category_description..." />
-            <marker date="1466165107253" expanded="true" signature="4453:4562" placeholder="SELECT * FRO..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="4702:4862" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="4953:5072" placeholder="SELECT * FRO..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="5238:5368" placeholder="SELECT * FRO..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="5854:5946" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="6033:6152" placeholder="SELECT * FRO..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="6218:6386" placeholder="INSERT INTO `${DB_PREFIX}category_path`..." />
-            <marker date="1466165107253" expanded="true" signature="6624:6716" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="6838:6967" placeholder="INSERT INTO ${DB_PREFIX}category_filter..." />
-            <marker date="1466165107253" expanded="true" signature="7001:7095" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="7214:7343" placeholder="INSERT INTO ${DB_PREFIX}category_to_store..." />
-            <marker date="1466165107253" expanded="true" signature="7377:7472" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="7607:7776" placeholder="INSERT INTO ${DB_PREFIX}category_to_layout..." />
-            <marker date="1466165107253" expanded="true" signature="7810:7902" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="7954:8101" placeholder="INSERT INTO ${DB_PREFIX}url_alias..." />
-            <marker date="1466165107253" expanded="true" signature="8218:8308" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="8342:8430" placeholder="SELECT * FRO..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="8548:8633" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="8657:8754" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="8778:8870" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="8894:8988" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="9012:9107" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="9131:9227" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="9251:9343" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="9367:9459" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="9585:9668" placeholder="SELECT * FRO..${DB_PREFIX}category..." />
-            <marker date="1466165107253" expanded="true" signature="9778:9882" placeholder="DELETE FROM ..." />
-            <marker date="1466165107253" expanded="true" signature="9969:10080" placeholder="SELECT * FRO..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="10146:10326" placeholder="INSERT INTO `${DB_PREFIX}category_path`..." />
-            <marker date="1466165107253" expanded="true" signature="10700:11485" placeholder="SELECT DISTI..${DB_PREFIX}category..." />
-            <marker date="1466165107253" expanded="true" signature="11114:11223" placeholder="SELECT DISTI..${DB_PREFIX}url_alias..." />
-            <marker date="1466165107253" expanded="true" signature="11576:12253" placeholder="SELECT cp.ca..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="13198:13297" placeholder="SELECT * FRO..${DB_PREFIX}category_description..." />
-            <marker date="1466165107253" expanded="true" signature="13781:13899" placeholder="SELECT categ..${DB_PREFIX}category_path..." />
-            <marker date="1466165107253" expanded="true" signature="14049:14143" placeholder="SELECT * FRO..${DB_PREFIX}category_filter..." />
-            <marker date="1466165107253" expanded="true" signature="14393:14489" placeholder="SELECT * FRO..${DB_PREFIX}category_to_store..." />
-            <marker date="1466165107253" expanded="true" signature="14738:14835" placeholder="SELECT * FRO..${DB_PREFIX}category_to_layout..." />
-            <marker date="1466165107253" expanded="true" signature="15058:15113" placeholder="SELECT COUNT..${DB_PREFIX}category..." />
-            <marker date="1466165107253" expanded="true" signature="15243:15352" placeholder="SELECT COUNT..${DB_PREFIX}category_to_layout..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1330,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54707986">
           <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.068966">
           <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5552995">
           <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,25 +820,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38423645">
           <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.448277">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="47" />
+        <state vertical-scroll-proportion="2.1323528">
+          <caret line="59" column="47" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="47" />
           <folding>
-            <marker date="1472543953116" expanded="true" signature="66:2070" placeholder="..." />
-            <marker date="1472543953116" expanded="true" signature="93:2002" placeholder="..." />
-            <marker date="1472543953116" expanded="true" signature="793:1490" placeholder="..." />
+            <marker date="1472648475929" expanded="true" signature="1487:1490" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_left.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.241379">
+        <state vertical-scroll-proportion="0.5147059">
           <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
@@ -1380,16 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.827586">
-          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1398,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,458 +860,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.655172">
-          <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.103448">
+        <state vertical-scroll-proportion="1.8014706">
           <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
-          <folding>
-            <marker date="1470058558693" expanded="true" signature="72878:72889" placeholder="..." />
-            <marker date="1470058558693" expanded="true" signature="77664:77678" placeholder="..." />
-            <marker date="1470058558693" expanded="true" signature="81518:81532" placeholder="..." />
-            <marker date="1470058558693" expanded="true" signature="86869:86880" placeholder="..." />
-            <marker date="1470058558693" expanded="true" signature="87275:87286" placeholder="..." />
-            <marker date="1470058558693" expanded="true" signature="89009:89020" placeholder="..." />
-            <marker date="1470058558693" expanded="true" signature="89413:89424" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/controller/catalog/product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8965516">
-          <caret line="777" column="19" selection-start-line="777" selection-start-column="19" selection-end-line="777" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="793" column="19" selection-start-line="793" selection-start-column="19" selection-end-line="793" selection-end-column="19" />
           <folding>
-            <element signature="n#index#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#723#894#0#PHP" expanded="false" />
-            <element signature="e#899#1073#0#PHP" expanded="false" />
-            <element signature="e#1078#1200#0#PHP" expanded="false" />
-            <element signature="e#1205#1336#0#PHP" expanded="false" />
             <element signature="e#1341#1466#0#PHP" expanded="false" />
-            <element signature="e#1471#1569#0#PHP" expanded="false" />
-            <element signature="e#1574#1675#0#PHP" expanded="false" />
-            <element signature="e#1680#1778#0#PHP" expanded="false" />
-            <element signature="n#edit#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#2115#3580#0#PHP" expanded="false" />
-            <element signature="e#2398#2569#0#PHP" expanded="false" />
-            <element signature="e#2574#2748#0#PHP" expanded="false" />
-            <element signature="e#2753#2875#0#PHP" expanded="false" />
-            <element signature="e#2880#3011#0#PHP" expanded="false" />
-            <element signature="e#3016#3141#0#PHP" expanded="false" />
-            <element signature="e#3146#3244#0#PHP" expanded="false" />
-            <element signature="e#3249#3350#0#PHP" expanded="false" />
-            <element signature="e#3355#3453#0#PHP" expanded="false" />
-            <element signature="n#delete#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#3792#5273#0#PHP" expanded="false" />
-            <element signature="e#3869#3995#0#PHP" expanded="false" />
-            <element signature="e#4091#4262#0#PHP" expanded="false" />
-            <element signature="e#4267#4441#0#PHP" expanded="false" />
-            <element signature="e#4446#4568#0#PHP" expanded="false" />
-            <element signature="e#4573#4704#0#PHP" expanded="false" />
-            <element signature="e#4709#4834#0#PHP" expanded="false" />
-            <element signature="e#4839#4937#0#PHP" expanded="false" />
-            <element signature="e#4942#5043#0#PHP" expanded="false" />
-            <element signature="e#5048#5146#0#PHP" expanded="false" />
-            <element signature="n#copy#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#5483#6960#0#PHP" expanded="false" />
-            <element signature="e#5558#5682#0#PHP" expanded="false" />
-            <element signature="e#5778#5949#0#PHP" expanded="false" />
-            <element signature="e#5954#6128#0#PHP" expanded="false" />
-            <element signature="e#6133#6255#0#PHP" expanded="false" />
-            <element signature="e#6260#6391#0#PHP" expanded="false" />
-            <element signature="e#6396#6521#0#PHP" expanded="false" />
-            <element signature="e#6526#6624#0#PHP" expanded="false" />
-            <element signature="e#6629#6730#0#PHP" expanded="false" />
-            <element signature="e#6735#6833#0#PHP" expanded="false" />
-            <element signature="n#getList#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#7020#7161#0#PHP" expanded="false" />
-            <element signature="e#7127#7161#0#PHP" expanded="false" />
-            <element signature="e#7165#7310#0#PHP" expanded="false" />
-            <element signature="e#7275#7310#0#PHP" expanded="false" />
-            <element signature="e#7314#7459#0#PHP" expanded="false" />
-            <element signature="e#7424#7459#0#PHP" expanded="false" />
-            <element signature="e#7463#7620#0#PHP" expanded="false" />
-            <element signature="e#7582#7620#0#PHP" expanded="false" />
-            <element signature="e#7624#7773#0#PHP" expanded="false" />
-            <element signature="e#7737#7773#0#PHP" expanded="false" />
-            <element signature="e#7777#7922#0#PHP" expanded="false" />
-            <element signature="e#7887#7922#0#PHP" expanded="false" />
-            <element signature="e#7926#8044#0#PHP" expanded="false" />
-            <element signature="e#8012#8044#0#PHP" expanded="false" />
-            <element signature="e#8048#8166#0#PHP" expanded="false" />
-            <element signature="e#8137#8166#0#PHP" expanded="false" />
-            <element signature="e#8170#8280#0#PHP" expanded="false" />
-            <element signature="e#8256#8280#0#PHP" expanded="false" />
-            <element signature="e#8298#8467#0#PHP" expanded="false" />
-            <element signature="e#8471#8643#0#PHP" expanded="false" />
-            <element signature="e#8647#8767#0#PHP" expanded="false" />
-            <element signature="e#8771#8900#0#PHP" expanded="false" />
             <element signature="e#8904#9027#0#PHP" expanded="false" />
-            <element signature="e#9031#9151#0#PHP" expanded="false" />
-            <element signature="e#9155#9251#0#PHP" expanded="false" />
-            <element signature="e#9255#9354#0#PHP" expanded="false" />
-            <element signature="e#9358#9454#0#PHP" expanded="false" />
-            <element signature="e#9518#9674#0#PHP" expanded="false" />
-            <element signature="e#9704#9870#0#PHP" expanded="false" />
-            <element signature="e#10270#10721#0#PHP" expanded="false" />
-            <element signature="e#10958#12808#0#PHP" expanded="false" />
-            <element signature="e#10993#11196#0#PHP" expanded="false" />
-            <element signature="e#11115#11196#0#PHP" expanded="false" />
-            <element signature="e#11320#11653#0#PHP" expanded="false" />
-            <element signature="e#11375#11648#0#PHP" expanded="false" />
-            <element signature="e#11790#12186#0#PHP" expanded="false" />
-            <element signature="e#11920#12181#0#PHP" expanded="false" />
-            <element signature="e#11971#12174#0#PHP" expanded="false" />
-            <element signature="e#12213#12803#0#PHP" expanded="false" />
-            <element signature="e#14476#14613#0#PHP" expanded="false" />
-            <element signature="e#14571#14613#0#PHP" expanded="false" />
-            <element signature="e#14617#14802#0#PHP" expanded="false" />
-            <element signature="e#14766#14802#0#PHP" expanded="false" />
-            <element signature="e#14806#14963#0#PHP" expanded="false" />
-            <element signature="e#14921#14963#0#PHP" expanded="false" />
-            <element signature="e#14981#15150#0#PHP" expanded="false" />
-            <element signature="e#15154#15326#0#PHP" expanded="false" />
-            <element signature="e#15330#15450#0#PHP" expanded="false" />
-            <element signature="e#15454#15583#0#PHP" expanded="false" />
-            <element signature="e#15587#15710#0#PHP" expanded="false" />
-            <element signature="e#15714#15834#0#PHP" expanded="false" />
-            <element signature="e#15838#15926#0#PHP" expanded="false" />
-            <element signature="e#15891#15926#0#PHP" expanded="false" />
-            <element signature="e#15930#16026#0#PHP" expanded="false" />
-            <element signature="e#16861#17030#0#PHP" expanded="false" />
-            <element signature="e#17034#17206#0#PHP" expanded="false" />
-            <element signature="e#17210#17330#0#PHP" expanded="false" />
-            <element signature="e#17334#17463#0#PHP" expanded="false" />
-            <element signature="e#17467#17590#0#PHP" expanded="false" />
-            <element signature="e#17594#17714#0#PHP" expanded="false" />
-            <element signature="e#17718#17814#0#PHP" expanded="false" />
-            <element signature="e#17818#17917#0#PHP" expanded="false" />
-            <element signature="e#18286#18743#0#PHP" expanded="false" />
-            <element signature="e#26500#26637#0#PHP" expanded="false" />
-            <element signature="e#26595#26637#0#PHP" expanded="false" />
-            <element signature="e#26641#26771#0#PHP" expanded="false" />
-            <element signature="e#26727#26771#0#PHP" expanded="false" />
-            <element signature="e#26775#26929#0#PHP" expanded="false" />
-            <element signature="e#26879#26929#0#PHP" expanded="false" />
-            <element signature="e#26933#27062#0#PHP" expanded="false" />
-            <element signature="e#27022#27062#0#PHP" expanded="false" />
-            <element signature="e#27066#27203#0#PHP" expanded="false" />
-            <element signature="e#27161#27203#0#PHP" expanded="false" />
-            <element signature="e#27221#27390#0#PHP" expanded="false" />
-            <element signature="e#27394#27566#0#PHP" expanded="false" />
-            <element signature="e#27570#27690#0#PHP" expanded="false" />
-            <element signature="e#27694#27823#0#PHP" expanded="false" />
-            <element signature="e#27827#27950#0#PHP" expanded="false" />
-            <element signature="e#27954#28050#0#PHP" expanded="false" />
-            <element signature="e#28054#28153#0#PHP" expanded="false" />
-            <element signature="e#28157#28253#0#PHP" expanded="false" />
-            <element signature="e#28317#28473#0#PHP" expanded="false" />
-            <element signature="e#28503#28669#0#PHP" expanded="false" />
-            <element signature="e#28674#29025#0#PHP" expanded="false" />
-            <element signature="e#28844#29025#0#PHP" expanded="false" />
-            <element signature="e#29142#29345#0#PHP" expanded="false" />
-            <element signature="e#29524#29897#0#PHP" expanded="false" />
-            <element signature="e#29665#29843#0#PHP" expanded="false" />
-            <element signature="e#29844#29897#0#PHP" expanded="false" />
-            <element signature="e#29901#30115#0#PHP" expanded="false" />
-            <element signature="e#30000#30080#0#PHP" expanded="false" />
-            <element signature="e#30081#30115#0#PHP" expanded="false" />
-            <element signature="e#30119#30321#0#PHP" expanded="false" />
-            <element signature="e#30212#30288#0#PHP" expanded="false" />
-            <element signature="e#30289#30321#0#PHP" expanded="false" />
-            <element signature="e#30325#30527#0#PHP" expanded="false" />
-            <element signature="e#30418#30494#0#PHP" expanded="false" />
-            <element signature="e#30495#30527#0#PHP" expanded="false" />
-            <element signature="e#30531#30733#0#PHP" expanded="false" />
-            <element signature="e#30624#30700#0#PHP" expanded="false" />
-            <element signature="e#30701#30733#0#PHP" expanded="false" />
-            <element signature="e#30737#30939#0#PHP" expanded="false" />
-            <element signature="e#30830#30906#0#PHP" expanded="false" />
-            <element signature="e#30907#30939#0#PHP" expanded="false" />
-            <element signature="e#30943#31151#0#PHP" expanded="false" />
-            <element signature="e#31039#31117#0#PHP" expanded="false" />
-            <element signature="e#31118#31151#0#PHP" expanded="false" />
-            <element signature="e#31155#31357#0#PHP" expanded="false" />
-            <element signature="e#31248#31324#0#PHP" expanded="false" />
-            <element signature="e#31325#31357#0#PHP" expanded="false" />
-            <element signature="e#31361#31593#0#PHP" expanded="false" />
-            <element signature="e#31469#31555#0#PHP" expanded="false" />
-            <element signature="e#31556#31593#0#PHP" expanded="false" />
-            <element signature="e#31699#32037#0#PHP" expanded="false" />
-            <element signature="e#31822#31988#0#PHP" expanded="false" />
-            <element signature="e#31989#32037#0#PHP" expanded="false" />
-            <element signature="e#32041#32267#0#PHP" expanded="false" />
-            <element signature="e#32146#32230#0#PHP" expanded="false" />
-            <element signature="e#32231#32267#0#PHP" expanded="false" />
-            <element signature="e#32271#32502#0#PHP" expanded="false" />
-            <element signature="e#32379#32465#0#PHP" expanded="false" />
-            <element signature="e#32466#32502#0#PHP" expanded="false" />
-            <element signature="e#32506#32720#0#PHP" expanded="false" />
-            <element signature="e#32605#32685#0#PHP" expanded="false" />
-            <element signature="e#32686#32720#0#PHP" expanded="false" />
-            <element signature="e#32842#33176#0#PHP" expanded="false" />
-            <element signature="e#32980#33123#0#PHP" expanded="false" />
-            <element signature="e#33124#33176#0#PHP" expanded="false" />
-            <element signature="e#33309#33564#0#PHP" expanded="false" />
-            <element signature="e#33429#33523#0#PHP" expanded="false" />
-            <element signature="e#33524#33564#0#PHP" expanded="false" />
-            <element signature="e#33568#33904#0#PHP" expanded="false" />
-            <element signature="e#33694#33849#0#PHP" expanded="false" />
-            <element signature="e#33850#33904#0#PHP" expanded="false" />
-            <element signature="e#33908#34139#0#PHP" expanded="false" />
-            <element signature="e#34016#34102#0#PHP" expanded="false" />
-            <element signature="e#34103#34139#0#PHP" expanded="false" />
-            <element signature="e#34143#34368#0#PHP" expanded="false" />
-            <element signature="e#34248#34332#0#PHP" expanded="false" />
-            <element signature="e#34333#34368#0#PHP" expanded="false" />
-            <element signature="e#34372#34603#0#PHP" expanded="false" />
-            <element signature="e#34480#34566#0#PHP" expanded="false" />
-            <element signature="e#34567#34603#0#PHP" expanded="false" />
-            <element signature="e#34607#34850#0#PHP" expanded="false" />
-            <element signature="e#34721#34811#0#PHP" expanded="false" />
-            <element signature="e#34812#34850#0#PHP" expanded="false" />
-            <element signature="e#34995#35268#0#PHP" expanded="false" />
-            <element signature="e#35124#35224#0#PHP" expanded="false" />
-            <element signature="e#35225#35268#0#PHP" expanded="false" />
-            <element signature="e#35272#35494#0#PHP" expanded="false" />
-            <element signature="e#35374#35456#0#PHP" expanded="false" />
-            <element signature="e#35457#35494#0#PHP" expanded="false" />
-            <element signature="e#35498#35718#0#PHP" expanded="false" />
-            <element signature="e#35600#35682#0#PHP" expanded="false" />
-            <element signature="e#35683#35718#0#PHP" expanded="false" />
-            <element signature="e#35863#36179#0#PHP" expanded="false" />
-            <element signature="e#35992#36092#0#PHP" expanded="false" />
-            <element signature="e#36093#36179#0#PHP" expanded="false" />
-            <element signature="e#36183#36403#0#PHP" expanded="false" />
-            <element signature="e#36285#36367#0#PHP" expanded="false" />
-            <element signature="e#36368#36403#0#PHP" expanded="false" />
-            <element signature="e#36407#36621#0#PHP" expanded="false" />
-            <element signature="e#36506#36586#0#PHP" expanded="false" />
-            <element signature="e#36587#36621#0#PHP" expanded="false" />
-            <element signature="e#36625#36845#0#PHP" expanded="false" />
-            <element signature="e#36727#36809#0#PHP" expanded="false" />
-            <element signature="e#36810#36845#0#PHP" expanded="false" />
-            <element signature="e#36990#37306#0#PHP" expanded="false" />
-            <element signature="e#37119#37219#0#PHP" expanded="false" />
-            <element signature="e#37220#37306#0#PHP" expanded="false" />
-            <element signature="e#37357#37630#0#PHP" expanded="false" />
-            <element signature="e#37486#37586#0#PHP" expanded="false" />
-            <element signature="e#37587#37630#0#PHP" expanded="false" />
-            <element signature="e#37634#38077#0#PHP" expanded="false" />
-            <element signature="e#37754#38035#0#PHP" expanded="false" />
-            <element signature="e#37901#38031#0#PHP" expanded="false" />
-            <element signature="e#37988#38031#0#PHP" expanded="false" />
-            <element signature="e#38036#38077#0#PHP" expanded="false" />
-            <element signature="e#38140#38454#0#PHP" expanded="false" />
-            <element signature="e#38258#38417#0#PHP" expanded="false" />
-            <element signature="e#38418#38454#0#PHP" expanded="false" />
-            <element signature="e#38500#38888#0#PHP" expanded="false" />
-            <element signature="e#38622#38884#0#PHP" expanded="false" />
-            <element signature="e#38680#38878#0#PHP" expanded="false" />
-            <element signature="e#38946#39244#0#PHP" expanded="false" />
-            <element signature="e#39057#39210#0#PHP" expanded="false" />
-            <element signature="e#39211#39244#0#PHP" expanded="false" />
-            <element signature="e#39287#39594#0#PHP" expanded="false" />
-            <element signature="e#39396#39590#0#PHP" expanded="false" />
-            <element signature="e#39449#39584#0#PHP" expanded="false" />
-            <element signature="e#39658#39998#0#PHP" expanded="false" />
-            <element signature="e#39786#39953#0#PHP" expanded="false" />
-            <element signature="e#39954#39998#0#PHP" expanded="false" />
-            <element signature="e#40044#40519#0#PHP" expanded="false" />
-            <element signature="e#40205#40515#0#PHP" expanded="false" />
-            <element signature="e#40264#40509#0#PHP" expanded="false" />
-            <element signature="e#40577#40899#0#PHP" expanded="false" />
-            <element signature="e#40696#40857#0#PHP" expanded="false" />
-            <element signature="e#40858#40899#0#PHP" expanded="false" />
-            <element signature="e#40942#42458#0#PHP" expanded="false" />
-            <element signature="e#41035#41959#0#PHP" expanded="false" />
-            <element signature="e#41093#41954#0#PHP" expanded="false" />
-            <element signature="e#41206#41947#0#PHP" expanded="false" />
-            <element signature="e#41993#42453#0#PHP" expanded="false" />
-            <element signature="e#42499#42940#0#PHP" expanded="false" />
-            <element signature="e#42558#42936#0#PHP" expanded="false" />
-            <element signature="e#42722#42931#0#PHP" expanded="false" />
-            <element signature="e#43083#43417#0#PHP" expanded="false" />
-            <element signature="e#43208#43373#0#PHP" expanded="false" />
-            <element signature="e#43374#43417#0#PHP" expanded="false" />
-            <element signature="e#43462#44031#0#PHP" expanded="false" />
-            <element signature="e#43548#44026#0#PHP" expanded="false" />
-            <element signature="e#44035#44363#0#PHP" expanded="false" />
-            <element signature="e#44157#44320#0#PHP" expanded="false" />
-            <element signature="e#44321#44363#0#PHP" expanded="false" />
-            <element signature="e#44407#44909#0#PHP" expanded="false" />
-            <element signature="e#44490#44904#0#PHP" expanded="false" />
-            <element signature="e#44926#45140#0#PHP" expanded="false" />
-            <element signature="e#45025#45105#0#PHP" expanded="false" />
-            <element signature="e#45106#45140#0#PHP" expanded="false" />
-            <element signature="e#45181#45637#0#PHP" expanded="false" />
-            <element signature="e#45377#45547#0#PHP" expanded="false" />
-            <element signature="e#45548#45637#0#PHP" expanded="false" />
-            <element signature="e#45738#46054#0#PHP" expanded="false" />
-            <element signature="e#45854#46013#0#PHP" expanded="false" />
-            <element signature="e#46014#46054#0#PHP" expanded="false" />
-            <element signature="e#46096#46532#0#PHP" expanded="false" />
-            <element signature="e#46145#46335#0#PHP" expanded="false" />
-            <element signature="e#46278#46335#0#PHP" expanded="false" />
-            <element signature="e#46368#46527#0#PHP" expanded="false" />
-            <element signature="e#46594#46928#0#PHP" expanded="false" />
-            <element signature="e#46719#46884#0#PHP" expanded="false" />
-            <element signature="e#46885#46928#0#PHP" expanded="false" />
-            <element signature="e#46973#47279#0#PHP" expanded="false" />
-            <element signature="e#47102#47275#0#PHP" expanded="false" />
-            <element signature="e#47159#47269#0#PHP" expanded="false" />
-            <element signature="e#47283#47586#0#PHP" expanded="false" />
-            <element signature="e#47397#47551#0#PHP" expanded="false" />
-            <element signature="e#47552#47586#0#PHP" expanded="false" />
-            <element signature="e#47630#47915#0#PHP" expanded="false" />
-            <element signature="e#47745#47911#0#PHP" expanded="false" />
-            <element signature="e#47800#47905#0#PHP" expanded="false" />
-            <element signature="e#47919#48139#0#PHP" expanded="false" />
-            <element signature="e#48021#48103#0#PHP" expanded="false" />
-            <element signature="e#48104#48139#0#PHP" expanded="false" />
-            <element signature="e#48143#48486#0#PHP" expanded="false" />
-            <element signature="e#48269#48437#0#PHP" expanded="false" />
-            <element signature="e#48438#48486#0#PHP" expanded="false" />
-            <element signature="e#48490#48833#0#PHP" expanded="false" />
-            <element signature="e#48616#48784#0#PHP" expanded="false" />
-            <element signature="e#48785#48833#0#PHP" expanded="false" />
             <element signature="n#validateForm#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#49259#49397#0#PHP" expanded="false" />
-            <element signature="e#49401#49841#0#PHP" expanded="false" />
-            <element signature="e#49486#49647#0#PHP" expanded="false" />
-            <element signature="e#49652#49837#0#PHP" expanded="false" />
-            <element signature="e#49845#50021#0#PHP" expanded="false" />
-            <element signature="e#50025#50618#0#PHP" expanded="false" />
-            <element signature="e#50229#50459#0#PHP" expanded="false" />
-            <element signature="e#50464#50614#0#PHP" expanded="false" />
-            <element signature="e#50622#50748#0#PHP" expanded="false" />
             <element signature="n#validateDelete#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#50819#50957#0#PHP" expanded="false" />
             <element signature="n#validateCopy#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#51026#51164#0#PHP" expanded="false" />
             <element signature="n#autocomplete#0;n#ControllerCatalogProduct#0;n#!!top" expanded="false" />
-            <element signature="e#51250#54016#0#PHP" expanded="false" />
-            <element signature="e#51432#51575#0#PHP" expanded="false" />
-            <element signature="e#51541#51575#0#PHP" expanded="false" />
-            <element signature="e#51580#51727#0#PHP" expanded="false" />
-            <element signature="e#51692#51727#0#PHP" expanded="false" />
-            <element signature="e#51732#51850#0#PHP" expanded="false" />
-            <element signature="e#51823#51850#0#PHP" expanded="false" />
-            <element signature="e#51870#52008#0#PHP" expanded="false" />
-            <element signature="e#52086#54012#0#PHP" expanded="false" />
-            <element signature="e#52247#53731#0#PHP" expanded="false" />
-            <element signature="e#52391#53725#0#PHP" expanded="false" />
-            <element signature="e#52462#53253#0#PHP" expanded="false" />
-            <element signature="e#52662#53245#0#PHP" expanded="false" />
-            <element signature="e#52727#53235#0#PHP" expanded="false" />
-            <element signature="e#53278#53717#0#PHP" expanded="false" />
-            <element signature="e#53747#54006#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/model/localisation/language.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="306" column="25" selection-start-line="306" selection-start-column="25" selection-end-line="306" selection-end-column="25" />
-          <folding>
-            <marker date="1466165107408" expanded="true" signature="112:413" placeholder="INSERT INTO ${DB_PREFIX}language..." />
-            <marker date="1466165107408" expanded="true" signature="541:669" placeholder="SELECT * FRO..${DB_PREFIX}attribute_description..." />
-            <marker date="1466165107408" expanded="true" signature="736:946" placeholder="INSERT INTO ${DB_PREFIX}attribute_description..." />
-            <marker date="1466165107408" expanded="true" signature="1005:1139" placeholder="SELECT * FRO..${DB_PREFIX}attribute_group_description..." />
-            <marker date="1466165107408" expanded="true" signature="1212:1452" placeholder="INSERT INTO ${DB_PREFIX}attribute_group_description..." />
-            <marker date="1466165107408" expanded="true" signature="1540:1659" placeholder="SELECT * FRO..${DB_PREFIX}banner_image..." />
-            <marker date="1466165107408" expanded="true" signature="1729:2109" placeholder="INSERT INTO ${DB_PREFIX}banner_image..." />
-            <marker date="1466165107408" expanded="true" signature="2196:2323" placeholder="SELECT * FRO..${DB_PREFIX}category_description..." />
-            <marker date="1466165107408" expanded="true" signature="2389:2880" placeholder="INSERT INTO ${DB_PREFIX}category_description..." />
-            <marker date="1466165107408" expanded="true" signature="2975:3108" placeholder="SELECT * FRO..${DB_PREFIX}customer_group_description..." />
-            <marker date="1466165107408" expanded="true" signature="3180:3490" placeholder="INSERT INTO ${DB_PREFIX}customer_group_description..." />
-            <marker date="1466165107408" expanded="true" signature="3546:3677" placeholder="SELECT * FRO..${DB_PREFIX}custom_field_description..." />
-            <marker date="1466165107408" expanded="true" signature="3747:3972" placeholder="INSERT INTO ${DB_PREFIX}custom_field_description..." />
-            <marker date="1466165107408" expanded="true" signature="4034:4171" placeholder="SELECT * FRO..${DB_PREFIX}custom_field_value_description..." />
-            <marker date="1466165107408" expanded="true" signature="4247:4575" placeholder="INSERT INTO ${DB_PREFIX}custom_field_value_description..." />
-            <marker date="1466165107408" expanded="true" signature="4627:4754" placeholder="SELECT * FRO..${DB_PREFIX}download_description..." />
-            <marker date="1466165107408" expanded="true" signature="4820:5025" placeholder="INSERT INTO ${DB_PREFIX}download_description..." />
-            <marker date="1466165107408" expanded="true" signature="5075:5200" placeholder="SELECT * FRO..${DB_PREFIX}filter_description..." />
-            <marker date="1466165107408" expanded="true" signature="5264:5520" placeholder="INSERT INTO ${DB_PREFIX}filter_description..." />
-            <marker date="1466165107408" expanded="true" signature="5576:5707" placeholder="SELECT * FRO..${DB_PREFIX}filter_group_description..." />
-            <marker date="1466165107408" expanded="true" signature="5777:6002" placeholder="INSERT INTO ${DB_PREFIX}filter_group_description..." />
-            <marker date="1466165107408" expanded="true" signature="6057:6187" placeholder="SELECT * FRO..${DB_PREFIX}information_description..." />
-            <marker date="1466165107408" expanded="true" signature="6256:6776" placeholder="INSERT INTO ${DB_PREFIX}information_description..." />
-            <marker date="1466165107408" expanded="true" signature="6866:6997" placeholder="SELECT * FRO..${DB_PREFIX}length_class_description..." />
-            <marker date="1466165107408" expanded="true" signature="7061:7329" placeholder="INSERT INTO ${DB_PREFIX}length_class_description..." />
-            <marker date="1466165107408" expanded="true" signature="7420:7545" placeholder="SELECT * FRO..${DB_PREFIX}option_description..." />
-            <marker date="1466165107408" expanded="true" signature="7609:7804" placeholder="INSERT INTO ${DB_PREFIX}option_description..." />
-            <marker date="1466165107408" expanded="true" signature="7860:7991" placeholder="SELECT * FRO..${DB_PREFIX}option_value_description..." />
-            <marker date="1466165107408" expanded="true" signature="8061:8341" placeholder="INSERT INTO ${DB_PREFIX}option_value_description..." />
-            <marker date="1466165107408" expanded="true" signature="8397:8516" placeholder="SELECT * FRO..${DB_PREFIX}order_status..." />
-            <marker date="1466165107408" expanded="true" signature="8586:8799" placeholder="INSERT INTO ${DB_PREFIX}order_status..." />
-            <marker date="1466165107408" expanded="true" signature="8891:9017" placeholder="SELECT * FRO..${DB_PREFIX}product_description..." />
-            <marker date="1466165107408" expanded="true" signature="9082:9616" placeholder="INSERT INTO ${DB_PREFIX}product_description..." />
-            <marker date="1466165107408" expanded="true" signature="9713:9837" placeholder="SELECT * FRO..${DB_PREFIX}product_attribute..." />
-            <marker date="1466165107408" expanded="true" signature="9912:10196" placeholder="INSERT INTO ${DB_PREFIX}product_attribute..." />
-            <marker date="1466165107408" expanded="true" signature="10253:10373" placeholder="SELECT * FRO..${DB_PREFIX}return_action..." />
-            <marker date="1466165107408" expanded="true" signature="10444:10662" placeholder="INSERT INTO ${DB_PREFIX}return_action..." />
-            <marker date="1466165107408" expanded="true" signature="10719:10839" placeholder="SELECT * FRO..${DB_PREFIX}return_reason..." />
-            <marker date="1466165107408" expanded="true" signature="10910:11128" placeholder="INSERT INTO ${DB_PREFIX}return_reason..." />
-            <marker date="1466165107408" expanded="true" signature="11185:11305" placeholder="SELECT * FRO..${DB_PREFIX}return_status..." />
-            <marker date="1466165107408" expanded="true" signature="11376:11594" placeholder="INSERT INTO ${DB_PREFIX}return_status..." />
-            <marker date="1466165107408" expanded="true" signature="11650:11769" placeholder="SELECT * FRO..${DB_PREFIX}stock_status..." />
-            <marker date="1466165107408" expanded="true" signature="11839:12052" placeholder="INSERT INTO ${DB_PREFIX}stock_status..." />
-            <marker date="1466165107408" expanded="true" signature="12150:12282" placeholder="SELECT * FRO..${DB_PREFIX}voucher_theme_description..." />
-            <marker date="1466165107408" expanded="true" signature="12353:12583" placeholder="INSERT INTO ${DB_PREFIX}voucher_theme_description..." />
-            <marker date="1466165107408" expanded="true" signature="12681:12812" placeholder="SELECT * FRO..${DB_PREFIX}weight_class_description..." />
-            <marker date="1466165107408" expanded="true" signature="12882:13168" placeholder="INSERT INTO ${DB_PREFIX}weight_class_description..." />
-            <marker date="1466165107408" expanded="true" signature="13261:13389" placeholder="SELECT * FRO..${DB_PREFIX}recurring_description..." />
-            <marker date="1466165107408" expanded="true" signature="13456:13620" placeholder="INSERT INTO ${DB_PREFIX}recurring_description..." />
-            <marker date="1466165107408" expanded="true" signature="13787:13879" placeholder="SELECT `code..${DB_PREFIX}language..." />
-            <marker date="1466165107408" expanded="true" signature="14858:14943" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15005:15103" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15127:15231" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15256:15357" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15382:15479" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15541:15644" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15668:15765" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15789:15884" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="15908:16009" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="16033:16133" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="16198:16299" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="16365:16460" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="16484:16585" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="16609:16698" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="16764:16858" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="16882:16978" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="17039:17129" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="17196:17286" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="17353:17443" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="17510:17599" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="17665:17767" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="17834:17935" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="18001:18099" placeholder="DELETE FROM ..." />
-            <marker date="1466165107408" expanded="true" signature="18181:18277" placeholder="SELECT DISTI..${DB_PREFIX}language..." />
-            <marker date="1466165107408" expanded="true" signature="18383:18422" placeholder="SELECT * FRO..${DB_PREFIX}language..." />
-            <marker date="1466165107408" expanded="true" signature="19263:19328" placeholder="SELECT * FRO..${DB_PREFIX}language..." />
-            <marker date="1466165107408" expanded="true" signature="19940:20029" placeholder="SELECT * FRO..${DB_PREFIX}language..." />
-            <marker date="1466165107408" expanded="true" signature="20128:20183" placeholder="SELECT COUNT..${DB_PREFIX}language..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4608295">
-          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.40808824">
+          <caret line="165" column="43" selection-start-line="165" selection-start-column="43" selection-end-line="165" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.655172">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.655172">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7333333">
+          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.883333">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/featured.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.344828">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.793103">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/vi-vn/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5882353">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>

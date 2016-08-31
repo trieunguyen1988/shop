@@ -1620,7 +1620,7 @@ TRUNCATE TABLE `sh_theme`;
 
 
 
-TRUNCATE TABLE `sh_tltblog`;
+/*TRUNCATE TABLE `sh_tltblog`;
 
 
 
@@ -1657,7 +1657,7 @@ TRUNCATE TABLE `sh_tlttag_description`;
 
 
 
-TRUNCATE TABLE `sh_tlttag_to_store`;
+TRUNCATE TABLE `sh_tlttag_to_store`;*/
 
 
 
